@@ -1,0 +1,277 @@
+[
+  {
+    "id": "applied",
+    "title": "Applied LLM",
+    "level": "Beginner to advanced",
+    "blurb": "Ship with models. This is the engineer half of Maxime Labonne’s LLM course, in watch order.",
+    "sources": [
+      {"label": "LLM course, engineer roadmap", "href": "https://github.com/mlabonne/llm-course"}
+    ],
+    "stages": [
+      {
+        "title": "Use one",
+        "blurb": "What a language model is, and a working practice, before any training.",
+        "videos": ["LPZh9BOjkQs", "zjkBMFhNj_g", "EWvNQjAaOHw"]
+      },
+      {
+        "title": "A chain",
+        "blurb": "LangChain, from the people who built it. The RAG series and LlamaIndex are on the App stack track.",
+        "videos": ["cwjs1WAG9CM", "9M8x485j_lU", "aHCDrAbH_go"]
+      },
+      {
+        "title": "See the model",
+        "blurb": "Enough of the architecture to debug an application. Stop before you start pretraining.",
+        "videos": ["wjZofJX0v4M", "eMlx5fFNoYc", "bCz4OMemCcA"]
+      },
+      {
+        "title": "Ship an application",
+        "blurb": "Production, retrieval, evals, and running a model you can afford.",
+        "videos": ["spamOhG7BOA", "rhZgXNdhWDY", "uiza7wp1KrE", "0VdNflU08yA"]
+      },
+      {
+        "title": "Advanced",
+        "blurb": "The failure modes, the habits, and the point where your own model beats the API.",
+        "videos": ["PKtR41eEVDU", "owmJyKVu5f8", "F8fBgDCf2Y4", "9-Y_oS9OBLc", "AnsXWH2_EBU"]
+      }
+    ]
+  },
+  {
+    "id": "apps",
+    "title": "App stack",
+    "level": "LangChain to LangGraph",
+    "blurb": "The basic application layer. Chains, retrieval, and a graph you can control. LangChain’s own tutorials, then LlamaIndex on documents.",
+    "sources": [
+      {"label": "LangChain", "href": "https://github.com/langchain-ai/langchain"},
+      {"label": "LangGraph", "href": "https://github.com/langchain-ai/langgraph"},
+      {"label": "RAG from scratch", "href": "https://github.com/langchain-ai/rag-from-scratch"},
+      {"label": "LlamaIndex", "href": "https://github.com/run-llama/llama_index"}
+    ],
+    "stages": [
+      {
+        "title": "Chains",
+        "blurb": "Harrison Chase on context and LangSmith, then the expression language the library is built on.",
+        "videos": ["cwjs1WAG9CM", "9M8x485j_lU"]
+      },
+      {
+        "title": "Retrieval",
+        "blurb": "What RAG is, derived, then LangChain’s own four-part tutorial: overview, index, retrieve, generate.",
+        "videos": ["rhZgXNdhWDY", "wd7TZ4w1mSw", "bjb_EMsTDKI", "LxNVgdIz9sU", "Vw52xyyFsB8", "MMFykgidz34"]
+      },
+      {
+        "title": "A schema",
+        "blurb": "The model has to return a shape the rest of the program can trust. OpenAI’s own session on structured outputs.",
+        "videos": ["kE4BkATIl9c"]
+      },
+      {
+        "title": "A graph",
+        "blurb": "The Anthropic agent patterns, implemented in LangGraph by the LangChain team.",
+        "videos": ["aHCDrAbH_go"]
+      },
+      {
+        "title": "Documents",
+        "blurb": "Jerry Liu, LlamaIndex, on why a PDF is not a prompt.",
+        "videos": ["RQi7x-navxU"]
+      }
+    ]
+  },
+  {
+    "id": "inference",
+    "title": "LLM inference",
+    "level": "KV cache to many GPUs",
+    "blurb": "From the cache and the kernel to vLLM, SGLang, and a model split across GPUs.",
+    "sources": [
+      {"label": "vLLM", "href": "https://github.com/vllm-project/vllm"},
+      {"label": "SGLang", "href": "https://github.com/sgl-project/sglang"}
+    ],
+    "stages": [
+      {
+        "title": "KV cache",
+        "blurb": "Attention, then the cache that makes the next token cheap. LLaMA is where the cache, RoPE, and grouped-query attention show up together.",
+        "videos": ["eMlx5fFNoYc", "Mn_9W1nCFLo", "oM4VmoabDAI"]
+      },
+      {
+        "title": "The kernel and the bits",
+        "blurb": "FlashAttention from the author, the current kernel, then quantization so the weights fit.",
+        "videos": ["gMOAud7hZg4", "VPslgC9piIw", "0VdNflU08yA"]
+      },
+      {
+        "title": "Serve one machine",
+        "blurb": "The CS336 inference lecture, PagedAttention, SGLang, then speculative decoding for the latency that is left.",
+        "videos": ["fcgPYo3OtV0", "9ih0EmcXRHE", "Ny4xxErgFgQ", "w9-AYqIhHRo", "kdo7KMAQcrE"]
+      },
+      {
+        "title": "Several GPUs",
+        "blurb": "How a GPU runs the matmul, how tensor and pipeline parallelism split the model, then multi-GPU inference in vLLM.",
+        "videos": ["6OBtO9niT00", "l1RJcDjzK8M", "oMb_WiUwf5o", "TZnJYRTSGVk"]
+      }
+    ]
+  },
+  {
+    "id": "finetune",
+    "title": "Fine-tuning",
+    "level": "SFT to QLoRA",
+    "blurb": "Supervised finetuning, LoRA from the inventor, QLoRA from the author, then preference tuning.",
+    "sources": [
+      {"label": "LoRA paper", "href": "https://arxiv.org/abs/2106.09685"},
+      {"label": "QLoRA", "href": "https://arxiv.org/abs/2305.14314"}
+    ],
+    "stages": [
+      {
+        "title": "After pretraining",
+        "blurb": "What the post-training stage is, then supervised finetuning as a training procedure.",
+        "videos": ["35X6zlhoCy4", "Dfu7vC9jo4w"]
+      },
+      {
+        "title": "Adapters",
+        "blurb": "The inventor of LoRA, the code, then Tim Dettmers on finetuning a quantized model.",
+        "videos": ["DhRoTONcyZE", "PXWYUTMt-AU", "fQirE9N5q_Y"]
+      },
+      {
+        "title": "Preferences",
+        "blurb": "DPO derived, RLHF with the code, then what comes after DPO.",
+        "videos": ["hvGa5Mba4c8", "qGyFrqc34yc", "dnF463_Ar9I"]
+      }
+    ]
+  },
+  {
+    "id": "architectures",
+    "title": "Architectures",
+    "level": "GPT-2 to Kimi",
+    "blurb": "The same decoder is not the same model. GPT-2, LLaMA, Mixtral, DeepSeek’s latent attention, and Kimi.",
+    "sources": [
+      {"label": "LLaMA paper", "href": "https://arxiv.org/abs/2302.13971"},
+      {"label": "DeepSeek-V2", "href": "https://arxiv.org/abs/2405.04434"}
+    ],
+    "stages": [
+      {
+        "title": "GPT-2",
+        "blurb": "A dense decoder. The picture, then Karpathy building it, then a real 124M training run.",
+        "videos": ["wjZofJX0v4M", "kCc8FmEb1nY", "l8pRSuU81PU"]
+      },
+      {
+        "title": "LLaMA",
+        "blurb": "RoPE, RMSNorm, SwiGLU, grouped-query attention, and the KV cache. Explained, then coded.",
+        "videos": ["Mn_9W1nCFLo", "oM4VmoabDAI"]
+      },
+      {
+        "title": "Mixture of experts",
+        "blurb": "CS336 on MoE as a systems choice, then Mistral’s sliding window and Mixtral’s sparse experts.",
+        "videos": ["LPv1KfUXLCo", "UiX8K-xBUpE"]
+      },
+      {
+        "title": "DeepSeek and Kimi",
+        "blurb": "Multi-head latent attention, which is how DeepSeek shrinks the cache, then Zhilin Yang on how Moonshot scaled Kimi.",
+        "videos": ["0VLAoVGf_74", "CwePo4847ho"]
+      }
+    ]
+  },
+  {
+    "id": "vlm",
+    "title": "Vision-language",
+    "level": "Patches to LLaVA",
+    "blurb": "Image patches as tokens, a frozen language model that can see, then instruction tuning.",
+    "sources": [
+      {"label": "Flamingo", "href": "https://arxiv.org/abs/2204.14198"},
+      {"label": "LLaVA", "href": "https://arxiv.org/abs/2304.08485"}
+    ],
+    "stages": [
+      {
+        "title": "Patches",
+        "blurb": "Lucas Beyer on transformers in vision, before the language model is attached.",
+        "videos": ["BP5CM0YxbP8"]
+      },
+      {
+        "title": "A language model that sees",
+        "blurb": "Flamingo, from an author. Few-shot visual tasks with a frozen language model.",
+        "videos": ["5bMkjdeMapM"]
+      },
+      {
+        "title": "Instruction tuning",
+        "blurb": "Chunyuan Li on large multimodal models and the LLaVA line.",
+        "videos": ["mkI7EPD1vp8"]
+      }
+    ]
+  },
+  {
+    "id": "researcher",
+    "title": "LLM researcher",
+    "level": "Beginner to researcher",
+    "blurb": "Build the model. Intuition, then a small GPT, then Stanford CS336 in order. That course is the scientist path people mean.",
+    "sources": [
+      {"label": "CS336", "href": "https://cs336.stanford.edu/spring2025/"},
+      {"label": "LLM course, scientist roadmap", "href": "https://github.com/mlabonne/llm-course"},
+      {"label": "Prime Intellect environments", "href": "https://www.primeintellect.ai/blog/environments"},
+      {"label": "verifiers", "href": "https://github.com/PrimeIntellect-ai/verifiers"}
+    ],
+    "stages": [
+      {
+        "title": "The mechanism",
+        "blurb": "Networks, gradients, backprop, then attention. Watch these before the code.",
+        "videos": ["aircAruvnKk", "IHZwWFHWa-w", "Ilg3gGewQ5U", "wjZofJX0v4M", "eMlx5fFNoYc"]
+      },
+      {
+        "title": "Build a small one",
+        "blurb": "Karpathy’s Zero to Hero, the four lectures that end in a tokenizer.",
+        "videos": ["VMj-3S1tku0", "PaCmpygFfXo", "kCc8FmEb1nY", "zduSFxRajkE"]
+      },
+      {
+        "title": "CS336, in order",
+        "blurb": "Language modeling from scratch. Do the assignments on the course site as you go.",
+        "site": "https://cs336.stanford.edu/spring2025/",
+        "videos": [
+          "SQ3fZ1sAqXI", "msHyYioAyNE", "ptFiH_bHnJw", "LPv1KfUXLCo", "6OBtO9niT00",
+          "E8Mju53VB00", "l1RJcDjzK8M", "LHpr5ytssLo", "6Q-ESEmDf4Q", "fcgPYo3OtV0",
+          "OSYuUqGBQxw", "x-R5l2HsXqM", "WePxmeXU1xg", "9Cd0THLS1t0", "Dfu7vC9jo4w",
+          "46f2QTDB08Q", "JdGFdViaOJk"
+        ]
+      },
+      {
+        "title": "Train and align",
+        "blurb": "A real small training run, then preference tuning past the slogan.",
+        "videos": ["l8pRSuU81PU", "hvGa5Mba4c8", "qGyFrqc34yc", "dnF463_Ar9I", "7xTGNNLPyMI"]
+      },
+      {
+        "title": "RLVR and environments",
+        "blurb": "A checker for a reward, the GRPO loss, then the environment the model is trained in. Nathan Lambert, then Prime Intellect.",
+        "videos": ["J1APR8Bo9dE", "amrJDwMUFNs", "PAz_-xPJcRM", "xqPTNIn4pjg", "04k8UsCYBvc", "PbHm2qKnu10", "furFAnmbam0", "AQv3qRCG6Gw"]
+      }
+    ]
+  },
+  {
+    "id": "agentic",
+    "title": "Agentic engineer",
+    "level": "Tutorial to harness",
+    "blurb": "How to build an agent, then the harness around it. The written tutorial is the Hugging Face agents course. The videos here are the ones worth watching.",
+    "sources": [
+      {"label": "Hugging Face agents course", "href": "https://huggingface.co/learn/agents-course/en/unit0/introduction"},
+      {"label": "First agent tutorial", "href": "https://huggingface.co/learn/agents-course/en/unit1/tutorial"},
+      {"label": "smolagents", "href": "https://github.com/huggingface/smolagents"},
+      {"label": "Harness engineering", "href": "https://aietalks.com/packs/harness-engineering"}
+    ],
+    "stages": [
+      {
+        "title": "What an agent is",
+        "blurb": "The author of smolagents, then Anthropic on when an agent is worth building. Do the Hugging Face unit 1 notebook after the first video.",
+        "videos": ["QytYcjTkkQU", "D7_ipDqhtwk", "CEvIs9y1uog"]
+      },
+      {
+        "title": "Tutorials",
+        "blurb": "Short, official, at the keyboard. Follow along.",
+        "videos": ["6eBSHbLKuN0", "S-sYlFiGFv8", "IlqJqcl8ONE", "eSP7PLTXNy8", "Iabue7wtE4g", "EWvNQjAaOHw"]
+      },
+      {
+        "title": "How a lab runs them",
+        "blurb": "The practice once the demo works.",
+        "videos": ["shZgedW15vg", "PLyCki2K0Lg", "owmJyKVu5f8"]
+      },
+      {
+        "title": "Engineer the harness",
+        "blurb": "Context, tools, sandbox, the loop, and the receipt. In the order of the harness pack.",
+        "videos": [
+          "am_oeAoUhew", "shRR1e2HXMk", "xIt_mTQp6mY", "wsFd22SL1s8", "2aS7aKoXn64",
+          "mR-WAvEPRwE", "vi-2nasppAg", "bZISsg7H7DA", "BInpv7lGp1o"
+        ]
+      }
+    ]
+  }
+]

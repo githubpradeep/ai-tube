@@ -1,0 +1,3339 @@
+{
+  "title": "better tube",
+  "updated": "2026-11-02",
+  "startHere": [
+    "aircAruvnKk",
+    "VMj-3S1tku0",
+    "SQ3fZ1sAqXI",
+    "zjkBMFhNj_g"
+  ],
+  "topics": [
+    {
+      "id": "applied",
+      "label": "Applied AI",
+      "blurb": "Models inside a real system: science, production apps, evals, and the code around them."
+    },
+    {
+      "id": "agents",
+      "label": "Agentic AI",
+      "blurb": "Agents that do a job: coding agents, long runs, skills, and tool use."
+    },
+    {
+      "id": "harness",
+      "label": "Harness engineering",
+      "blurb": "The loop, sandbox, memory, and checks around a model. The model is one part of the system."
+    },
+    {
+      "id": "rlvr",
+      "label": "RLVR",
+      "blurb": "Reward is a checker. Math, code, and any answer you can verify, which is how reasoning models are trained."
+    },
+    {
+      "id": "rl-env",
+      "label": "RL environments",
+      "blurb": "The task, the world, and the score. Prime Intellect\u2019s environments and verifiers, and OpenEnv."
+    },
+    {
+      "id": "rl",
+      "label": "Reinforcement learning",
+      "blurb": "Policy gradients for language models. GRPO, rollouts, and a post-training run that updates the weights."
+    },
+    {
+      "id": "demos",
+      "label": "Demos",
+      "blurb": "Someone at the keyboard, showing a system they use or built."
+    },
+    {
+      "id": "news",
+      "label": "News",
+      "blurb": "What just changed, from people who will say it plainly."
+    },
+    {
+      "id": "training",
+      "label": "Training",
+      "blurb": "How a model actually gets built: data, loss, parallelism, scaling, post-training."
+    },
+    {
+      "id": "inference",
+      "label": "Inference",
+      "blurb": "Kernels, KV cache, attention, quantization, and serving."
+    },
+    {
+      "id": "deep-learning",
+      "label": "Deep learning",
+      "blurb": "The mechanics: gradients, architectures, attention, the stuff underneath the API."
+    },
+    {
+      "id": "vlm",
+      "label": "Vision-language",
+      "blurb": "A vision encoder tied to a language model. CLIP\u2019s contrastive picture, Flamingo, then LLaVA."
+    },
+    {
+      "id": "talks",
+      "label": "Talks",
+      "blurb": "Long technical talks and interviews with the person who did the work."
+    },
+    {
+      "id": "releases",
+      "label": "Releases",
+      "blurb": "Research releases, told by the people who shipped them."
+    }
+  ],
+  "series": {
+    "cs336": {
+      "title": "Language Modeling from Scratch",
+      "place": "Stanford CS336 \u00b7 Spring 2025",
+      "site": "https://cs336.stanford.edu/spring2025/",
+      "blurb": "Percy Liang and Tatsunori Hashimoto. You implement the tokenizer, the transformer, the kernels, the data pipeline, and alignment. This is the spine of the library."
+    },
+    "z2h": {
+      "title": "Neural Networks: Zero to Hero",
+      "place": "Andrej Karpathy",
+      "site": "https://karpathy.ai/zero-to-hero.html",
+      "blurb": "Spelled out, in code, from micrograd to a reproduced GPT-2. Watch in order."
+    },
+    "cs224n": {
+      "title": "NLP with Deep Learning",
+      "place": "Stanford CS224N \u00b7 2024",
+      "site": "https://web.stanford.edu/class/cs224n/",
+      "blurb": "Christopher Manning\u2019s course, trimmed to the lectures that still earn their time: vectors, networks, transformers, post-training, evals, agents."
+    },
+    "mit": {
+      "title": "Introduction to Deep Learning",
+      "place": "MIT 6.S191 \u00b7 2025",
+      "site": "https://introtodeeplearning.com/2025/",
+      "blurb": "A one-week map of the field from Alexander Amini and Ava Soleimany. Foundations, then the 2025 core lectures. Sponsor slots are not included."
+    },
+    "3b1b": {
+      "title": "Deep learning, visually",
+      "place": "3Blue1Brown",
+      "site": "https://www.3blue1brown.com/topics/neural-networks",
+      "blurb": "Grant Sanderson. The pictures you want in your head before the code."
+    },
+    "scratch": {
+      "title": "Coded from scratch",
+      "place": "Umar Jamil",
+      "site": "https://www.youtube.com/@umarjamilai",
+      "blurb": "Paper, math, then a PyTorch implementation. Transformers, LLaMA, FlashAttention, quantization, LoRA, DPO."
+    },
+    "harness": {
+      "title": "Harness engineering",
+      "place": "AI Engineer \u00b7 2025\u20132026",
+      "site": "https://aietalks.com/packs/harness-engineering",
+      "blurb": "The machinery around an agent: context, the loop, the sandbox, long-running state, and a receipt for what actually ran. Watch in order."
+    },
+    "gpumode": {
+      "title": "GPU MODE",
+      "place": "Lectures from working kernel engineers",
+      "site": "https://www.gpumode.com/",
+      "blurb": "A cut of the GPU MODE lecture series: inference, attention, quantization, numerics, multi-GPU. Not the whole channel."
+    }
+  },
+  "tracks": [
+    {
+      "id": "applied",
+      "title": "Applied LLM",
+      "level": "Beginner to advanced",
+      "blurb": "Ship with models. This is the engineer half of Maxime Labonne\u2019s LLM course, in watch order.",
+      "sources": [
+        {
+          "label": "LLM course, engineer roadmap",
+          "href": "https://github.com/mlabonne/llm-course"
+        }
+      ],
+      "stages": [
+        {
+          "title": "Use one",
+          "blurb": "What a language model is, and a working practice, before any training.",
+          "videos": [
+            "LPZh9BOjkQs",
+            "zjkBMFhNj_g",
+            "EWvNQjAaOHw"
+          ]
+        },
+        {
+          "title": "A chain",
+          "blurb": "LangChain, from the people who built it. The RAG series and LlamaIndex are on the App stack track.",
+          "videos": [
+            "cwjs1WAG9CM",
+            "9M8x485j_lU",
+            "aHCDrAbH_go"
+          ]
+        },
+        {
+          "title": "See the model",
+          "blurb": "Enough of the architecture to debug an application. Stop before you start pretraining.",
+          "videos": [
+            "wjZofJX0v4M",
+            "eMlx5fFNoYc",
+            "bCz4OMemCcA"
+          ]
+        },
+        {
+          "title": "Ship an application",
+          "blurb": "Production, retrieval, evals, and running a model you can afford.",
+          "videos": [
+            "spamOhG7BOA",
+            "rhZgXNdhWDY",
+            "uiza7wp1KrE",
+            "0VdNflU08yA"
+          ]
+        },
+        {
+          "title": "Advanced",
+          "blurb": "The failure modes, the habits, and the point where your own model beats the API.",
+          "videos": [
+            "PKtR41eEVDU",
+            "owmJyKVu5f8",
+            "F8fBgDCf2Y4",
+            "9-Y_oS9OBLc",
+            "AnsXWH2_EBU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "title": "App stack",
+      "level": "LangChain to LangGraph",
+      "blurb": "The basic application layer. Chains, retrieval, and a graph you can control. LangChain\u2019s own tutorials, then LlamaIndex on documents.",
+      "sources": [
+        {
+          "label": "LangChain",
+          "href": "https://github.com/langchain-ai/langchain"
+        },
+        {
+          "label": "LangGraph",
+          "href": "https://github.com/langchain-ai/langgraph"
+        },
+        {
+          "label": "RAG from scratch",
+          "href": "https://github.com/langchain-ai/rag-from-scratch"
+        },
+        {
+          "label": "LlamaIndex",
+          "href": "https://github.com/run-llama/llama_index"
+        }
+      ],
+      "stages": [
+        {
+          "title": "Chains",
+          "blurb": "Harrison Chase on context and LangSmith, then the expression language the library is built on.",
+          "videos": [
+            "cwjs1WAG9CM",
+            "9M8x485j_lU"
+          ]
+        },
+        {
+          "title": "Retrieval",
+          "blurb": "What RAG is, derived, then LangChain\u2019s own four-part tutorial: overview, index, retrieve, generate.",
+          "videos": [
+            "rhZgXNdhWDY",
+            "wd7TZ4w1mSw",
+            "bjb_EMsTDKI",
+            "LxNVgdIz9sU",
+            "Vw52xyyFsB8",
+            "MMFykgidz34"
+          ]
+        },
+        {
+          "title": "A schema",
+          "blurb": "The model has to return a shape the rest of the program can trust. OpenAI\u2019s own session on structured outputs.",
+          "videos": [
+            "kE4BkATIl9c"
+          ]
+        },
+        {
+          "title": "A graph",
+          "blurb": "The Anthropic agent patterns, implemented in LangGraph by the LangChain team.",
+          "videos": [
+            "aHCDrAbH_go"
+          ]
+        },
+        {
+          "title": "Documents",
+          "blurb": "Jerry Liu, LlamaIndex, on why a PDF is not a prompt.",
+          "videos": [
+            "RQi7x-navxU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "title": "LLM inference",
+      "level": "KV cache to many GPUs",
+      "blurb": "From the cache and the kernel to vLLM, SGLang, and a model split across GPUs.",
+      "sources": [
+        {
+          "label": "vLLM",
+          "href": "https://github.com/vllm-project/vllm"
+        },
+        {
+          "label": "SGLang",
+          "href": "https://github.com/sgl-project/sglang"
+        }
+      ],
+      "stages": [
+        {
+          "title": "KV cache",
+          "blurb": "Attention, then the cache that makes the next token cheap. LLaMA is where the cache, RoPE, and grouped-query attention show up together.",
+          "videos": [
+            "eMlx5fFNoYc",
+            "Mn_9W1nCFLo",
+            "oM4VmoabDAI"
+          ]
+        },
+        {
+          "title": "The kernel and the bits",
+          "blurb": "FlashAttention from the author, the current kernel, then quantization so the weights fit.",
+          "videos": [
+            "gMOAud7hZg4",
+            "VPslgC9piIw",
+            "0VdNflU08yA"
+          ]
+        },
+        {
+          "title": "Serve one machine",
+          "blurb": "The CS336 inference lecture, PagedAttention, SGLang, then speculative decoding for the latency that is left.",
+          "videos": [
+            "fcgPYo3OtV0",
+            "9ih0EmcXRHE",
+            "Ny4xxErgFgQ",
+            "w9-AYqIhHRo",
+            "kdo7KMAQcrE"
+          ]
+        },
+        {
+          "title": "Several GPUs",
+          "blurb": "How a GPU runs the matmul, how tensor and pipeline parallelism split the model, then multi-GPU inference in vLLM.",
+          "videos": [
+            "6OBtO9niT00",
+            "l1RJcDjzK8M",
+            "oMb_WiUwf5o",
+            "TZnJYRTSGVk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finetune",
+      "title": "Fine-tuning",
+      "level": "SFT to QLoRA",
+      "blurb": "Supervised finetuning, LoRA from the inventor, QLoRA from the author, then preference tuning.",
+      "sources": [
+        {
+          "label": "LoRA paper",
+          "href": "https://arxiv.org/abs/2106.09685"
+        },
+        {
+          "label": "QLoRA",
+          "href": "https://arxiv.org/abs/2305.14314"
+        }
+      ],
+      "stages": [
+        {
+          "title": "After pretraining",
+          "blurb": "What the post-training stage is, then supervised finetuning as a training procedure.",
+          "videos": [
+            "35X6zlhoCy4",
+            "Dfu7vC9jo4w"
+          ]
+        },
+        {
+          "title": "Adapters",
+          "blurb": "The inventor of LoRA, the code, then Tim Dettmers on finetuning a quantized model.",
+          "videos": [
+            "DhRoTONcyZE",
+            "PXWYUTMt-AU",
+            "fQirE9N5q_Y"
+          ]
+        },
+        {
+          "title": "Preferences",
+          "blurb": "DPO derived, RLHF with the code, then what comes after DPO.",
+          "videos": [
+            "hvGa5Mba4c8",
+            "qGyFrqc34yc",
+            "dnF463_Ar9I"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architectures",
+      "title": "Architectures",
+      "level": "GPT-2 to Kimi",
+      "blurb": "The same decoder is not the same model. GPT-2, LLaMA, Mixtral, DeepSeek\u2019s latent attention, and Kimi.",
+      "sources": [
+        {
+          "label": "LLaMA paper",
+          "href": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "label": "DeepSeek-V2",
+          "href": "https://arxiv.org/abs/2405.04434"
+        }
+      ],
+      "stages": [
+        {
+          "title": "GPT-2",
+          "blurb": "A dense decoder. The picture, then Karpathy building it, then a real 124M training run.",
+          "videos": [
+            "wjZofJX0v4M",
+            "kCc8FmEb1nY",
+            "l8pRSuU81PU"
+          ]
+        },
+        {
+          "title": "LLaMA",
+          "blurb": "RoPE, RMSNorm, SwiGLU, grouped-query attention, and the KV cache. Explained, then coded.",
+          "videos": [
+            "Mn_9W1nCFLo",
+            "oM4VmoabDAI"
+          ]
+        },
+        {
+          "title": "Mixture of experts",
+          "blurb": "CS336 on MoE as a systems choice, then Mistral\u2019s sliding window and Mixtral\u2019s sparse experts.",
+          "videos": [
+            "LPv1KfUXLCo",
+            "UiX8K-xBUpE"
+          ]
+        },
+        {
+          "title": "DeepSeek and Kimi",
+          "blurb": "Multi-head latent attention, which is how DeepSeek shrinks the cache, then Zhilin Yang on how Moonshot scaled Kimi.",
+          "videos": [
+            "0VLAoVGf_74",
+            "CwePo4847ho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vlm",
+      "title": "Vision-language",
+      "level": "Patches to LLaVA",
+      "blurb": "Image patches as tokens, a frozen language model that can see, then instruction tuning.",
+      "sources": [
+        {
+          "label": "Flamingo",
+          "href": "https://arxiv.org/abs/2204.14198"
+        },
+        {
+          "label": "LLaVA",
+          "href": "https://arxiv.org/abs/2304.08485"
+        }
+      ],
+      "stages": [
+        {
+          "title": "Patches",
+          "blurb": "Lucas Beyer on transformers in vision, before the language model is attached.",
+          "videos": [
+            "BP5CM0YxbP8"
+          ]
+        },
+        {
+          "title": "A language model that sees",
+          "blurb": "Flamingo, from an author. Few-shot visual tasks with a frozen language model.",
+          "videos": [
+            "5bMkjdeMapM"
+          ]
+        },
+        {
+          "title": "Instruction tuning",
+          "blurb": "Chunyuan Li on large multimodal models and the LLaVA line.",
+          "videos": [
+            "mkI7EPD1vp8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "researcher",
+      "title": "LLM researcher",
+      "level": "Beginner to researcher",
+      "blurb": "Build the model. Intuition, then a small GPT, then Stanford CS336 in order. That course is the scientist path people mean.",
+      "sources": [
+        {
+          "label": "CS336",
+          "href": "https://cs336.stanford.edu/spring2025/"
+        },
+        {
+          "label": "LLM course, scientist roadmap",
+          "href": "https://github.com/mlabonne/llm-course"
+        },
+        {
+          "label": "Prime Intellect environments",
+          "href": "https://www.primeintellect.ai/blog/environments"
+        },
+        {
+          "label": "verifiers",
+          "href": "https://github.com/PrimeIntellect-ai/verifiers"
+        }
+      ],
+      "stages": [
+        {
+          "title": "The mechanism",
+          "blurb": "Networks, gradients, backprop, then attention. Watch these before the code.",
+          "videos": [
+            "aircAruvnKk",
+            "IHZwWFHWa-w",
+            "Ilg3gGewQ5U",
+            "wjZofJX0v4M",
+            "eMlx5fFNoYc"
+          ]
+        },
+        {
+          "title": "Build a small one",
+          "blurb": "Karpathy\u2019s Zero to Hero, the four lectures that end in a tokenizer.",
+          "videos": [
+            "VMj-3S1tku0",
+            "PaCmpygFfXo",
+            "kCc8FmEb1nY",
+            "zduSFxRajkE"
+          ]
+        },
+        {
+          "title": "CS336, in order",
+          "blurb": "Language modeling from scratch. Do the assignments on the course site as you go.",
+          "site": "https://cs336.stanford.edu/spring2025/",
+          "videos": [
+            "SQ3fZ1sAqXI",
+            "msHyYioAyNE",
+            "ptFiH_bHnJw",
+            "LPv1KfUXLCo",
+            "6OBtO9niT00",
+            "E8Mju53VB00",
+            "l1RJcDjzK8M",
+            "LHpr5ytssLo",
+            "6Q-ESEmDf4Q",
+            "fcgPYo3OtV0",
+            "OSYuUqGBQxw",
+            "x-R5l2HsXqM",
+            "WePxmeXU1xg",
+            "9Cd0THLS1t0",
+            "Dfu7vC9jo4w",
+            "46f2QTDB08Q",
+            "JdGFdViaOJk"
+          ]
+        },
+        {
+          "title": "Train and align",
+          "blurb": "A real small training run, then preference tuning past the slogan.",
+          "videos": [
+            "l8pRSuU81PU",
+            "hvGa5Mba4c8",
+            "qGyFrqc34yc",
+            "dnF463_Ar9I",
+            "7xTGNNLPyMI"
+          ]
+        },
+        {
+          "title": "RLVR and environments",
+          "blurb": "A checker for a reward, the GRPO loss, then the environment the model is trained in. Nathan Lambert, then Prime Intellect.",
+          "videos": [
+            "J1APR8Bo9dE",
+            "amrJDwMUFNs",
+            "PAz_-xPJcRM",
+            "xqPTNIn4pjg",
+            "04k8UsCYBvc",
+            "PbHm2qKnu10",
+            "furFAnmbam0",
+            "AQv3qRCG6Gw"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agentic",
+      "title": "Agentic engineer",
+      "level": "Tutorial to harness",
+      "blurb": "How to build an agent, then the harness around it. The written tutorial is the Hugging Face agents course. The videos here are the ones worth watching.",
+      "sources": [
+        {
+          "label": "Hugging Face agents course",
+          "href": "https://huggingface.co/learn/agents-course/en/unit0/introduction"
+        },
+        {
+          "label": "First agent tutorial",
+          "href": "https://huggingface.co/learn/agents-course/en/unit1/tutorial"
+        },
+        {
+          "label": "smolagents",
+          "href": "https://github.com/huggingface/smolagents"
+        },
+        {
+          "label": "Harness engineering",
+          "href": "https://aietalks.com/packs/harness-engineering"
+        }
+      ],
+      "stages": [
+        {
+          "title": "What an agent is",
+          "blurb": "The author of smolagents, then Anthropic on when an agent is worth building. Do the Hugging Face unit 1 notebook after the first video.",
+          "videos": [
+            "QytYcjTkkQU",
+            "D7_ipDqhtwk",
+            "CEvIs9y1uog"
+          ]
+        },
+        {
+          "title": "Tutorials",
+          "blurb": "Short, official, at the keyboard. Follow along.",
+          "videos": [
+            "6eBSHbLKuN0",
+            "S-sYlFiGFv8",
+            "IlqJqcl8ONE",
+            "eSP7PLTXNy8",
+            "Iabue7wtE4g",
+            "EWvNQjAaOHw"
+          ]
+        },
+        {
+          "title": "How a lab runs them",
+          "blurb": "The practice once the demo works.",
+          "videos": [
+            "shZgedW15vg",
+            "PLyCki2K0Lg",
+            "owmJyKVu5f8"
+          ]
+        },
+        {
+          "title": "Engineer the harness",
+          "blurb": "Context, tools, sandbox, the loop, and the receipt. In the order of the harness pack.",
+          "videos": [
+            "am_oeAoUhew",
+            "shRR1e2HXMk",
+            "xIt_mTQp6mY",
+            "wsFd22SL1s8",
+            "2aS7aKoXn64",
+            "mR-WAvEPRwE",
+            "vi-2nasppAg",
+            "bZISsg7H7DA",
+            "BInpv7lGp1o"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "SQ3fZ1sAqXI",
+      "series": "cs336",
+      "part": 1,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Overview and tokenization",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 1: Overview and Tokenization",
+      "why": "Why the course exists: researchers who only prompt are stuck above a leaky abstraction. Then tokenization, for real.",
+      "durationSec": 4739,
+      "published": "2025-04-24",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "msHyYioAyNE",
+      "series": "cs336",
+      "part": 2,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "PyTorch and resource accounting",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lec. 2: Pytorch, Resource Accounting",
+      "why": "What a training run actually costs in memory, flops, and time, before you scale anything.",
+      "durationSec": 4762,
+      "published": "2025-04-10",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "ptFiH_bHnJw",
+      "series": "cs336",
+      "part": 3,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Architectures and hyperparameters",
+      "title": "Stanford CS336 Lang. Modeling from Scratch | Spring 2025 | Lec. 3: Architectures, Hyperparameters",
+      "why": "Which transformer choices matter, and which hyperparameters are doing the work.",
+      "durationSec": 5223,
+      "published": "2025-04-16",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "LPv1KfUXLCo",
+      "series": "cs336",
+      "part": 4,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Mixture of experts",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 4: Mixture of experts",
+      "why": "MoE as a systems and modeling decision, from the people teaching you to build one.",
+      "durationSec": 4924,
+      "published": "2025-04-24",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "6OBtO9niT00",
+      "series": "cs336",
+      "part": 5,
+      "topics": [
+        "training",
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "GPUs",
+      "title": "Stanford CS336 I Language Modeling from Scratch | Spring 2025 | Lecture 5: GPUs",
+      "why": "How a GPU actually runs the matmuls your model is made of.",
+      "durationSec": 4461,
+      "published": "2025-05-01",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "E8Mju53VB00",
+      "series": "cs336",
+      "part": 6,
+      "topics": [
+        "training",
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Kernels and Triton",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 6: Kernels, Triton",
+      "why": "Writing kernels, including the FlashAttention-style assignment, instead of treating attention as a library call.",
+      "durationSec": 4822,
+      "published": "2025-05-02",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "l1RJcDjzK8M",
+      "series": "cs336",
+      "part": 7,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Parallelism I",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 7: Parallelism 1",
+      "why": "Data, tensor, and pipeline parallelism. The part you cannot get from an API.",
+      "durationSec": 5082,
+      "published": "2025-05-06",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "LHpr5ytssLo",
+      "series": "cs336",
+      "part": 8,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Parallelism II",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 8: Parallelism 2",
+      "why": "The second pass on distributed training, after the memory math is in place.",
+      "durationSec": 4510,
+      "published": "2025-05-12",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "6Q-ESEmDf4Q",
+      "series": "cs336",
+      "part": 9,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Scaling laws I",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 9: Scaling laws 1",
+      "why": "How to spend a compute budget: the empirical laws, and where they mislead.",
+      "durationSec": 3918,
+      "published": "2025-05-15",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "fcgPYo3OtV0",
+      "series": "cs336",
+      "part": 10,
+      "topics": [
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Inference",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 10: Inference",
+      "why": "Serving, decoding, and the gap between training throughput and token latency.",
+      "durationSec": 4972,
+      "published": "2025-05-19",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "OSYuUqGBQxw",
+      "series": "cs336",
+      "part": 11,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Scaling laws II",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 11: Scaling laws 2",
+      "why": "Fitting a scaling law well enough to decide the next run, which is the assignment.",
+      "durationSec": 4693,
+      "published": "2025-06-02",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "x-R5l2HsXqM",
+      "series": "cs336",
+      "part": 12,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Evaluation",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 12: Evaluation",
+      "why": "What evals measure, what they don\u2019t, and how people fool themselves with them.",
+      "durationSec": 4848,
+      "published": "2025-06-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "WePxmeXU1xg",
+      "series": "cs336",
+      "part": 13,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Data I",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 13: Data 1",
+      "why": "Pretraining data is the job. Filtering, dedup, and why the dataset beats the trick.",
+      "durationSec": 4746,
+      "published": "2025-06-10",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "9Cd0THLS1t0",
+      "series": "cs336",
+      "part": 14,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Data II",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 14: Data 2",
+      "why": "The rest of the data pipeline, through Common Crawl into something you can train on.",
+      "durationSec": 4751,
+      "published": "2025-06-16",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "Dfu7vC9jo4w",
+      "series": "cs336",
+      "part": 15,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Alignment: SFT and RLHF",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 15: Alignment - SFT/RLHF",
+      "why": "Supervised finetuning and RLHF, as a training procedure rather than a slogan.",
+      "durationSec": 4491,
+      "published": "2025-06-20",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "46f2QTDB08Q",
+      "series": "cs336",
+      "part": 16,
+      "topics": [
+        "rl",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Alignment: RL I",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 16: Alignment - RL 1",
+      "why": "Reinforcement learning for reasoning models. The objective, the rollout, the failure modes.",
+      "durationSec": 4832,
+      "published": "2025-07-01",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "JdGFdViaOJk",
+      "series": "cs336",
+      "part": 17,
+      "topics": [
+        "rl",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Alignment: RL II",
+      "title": "Stanford CS336 Language Modeling from Scratch | Spring 2025 | Lecture 17: Alignment - RL 2",
+      "why": "The second alignment lecture, closing the loop from base model to a model that can be trained to reason.",
+      "durationSec": 4568,
+      "published": "2025-07-08",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "VMj-3S1tku0",
+      "series": "z2h",
+      "part": 1,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Backprop, by building micrograd",
+      "title": "The spelled-out intro to neural networks and backpropagation: building micrograd",
+      "why": "A scalar autograd engine, written live, until backprop is obvious.",
+      "durationSec": 8752,
+      "published": "2022-08-16",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "PaCmpygFfXo",
+      "series": "z2h",
+      "part": 2,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Language modeling, by building makemore",
+      "title": "The spelled-out intro to language modeling: building makemore",
+      "why": "Bigrams through a neural net, on names, with every tensor shape on the board.",
+      "durationSec": 7065,
+      "published": "2022-09-07",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "TCH_1BHY58I",
+      "series": "z2h",
+      "part": 3,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "makemore: the MLP",
+      "title": "Building makemore Part 2: MLP",
+      "why": "Bengio\u2019s neural language model, implemented, including the embedding.",
+      "durationSec": 4539,
+      "published": "2022-09-12",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "P6sfmUTpUmc",
+      "series": "z2h",
+      "part": 4,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Activations, gradients, BatchNorm",
+      "title": "Building makemore Part 3: Activations & Gradients, BatchNorm",
+      "why": "Where training actually breaks: dead neurons, initialization, and BatchNorm.",
+      "durationSec": 6957,
+      "published": "2022-10-04",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "q8SA3rM6ckI",
+      "series": "z2h",
+      "part": 5,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Becoming a backprop ninja",
+      "title": "Building makemore Part 4: Becoming a Backprop Ninja",
+      "why": "Hand-derived gradients matched against autograd. The fluency exercise.",
+      "durationSec": 6924,
+      "published": "2022-10-11",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "t3YJ5hKiMQ0",
+      "series": "z2h",
+      "part": 6,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "makemore: a WaveNet",
+      "title": "Building makemore Part 5: Building a WaveNet",
+      "why": "A dilated conv net on characters. Useful, and the last stop before the transformer.",
+      "durationSec": 3381,
+      "published": "2022-11-20",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "kCc8FmEb1nY",
+      "series": "z2h",
+      "part": 7,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Let's build GPT",
+      "title": "Let's build GPT: from scratch, in code, spelled out.",
+      "why": "A character-level GPT, coded from an empty file. The one to watch if you only watch one.",
+      "durationSec": 6980,
+      "published": "2023-01-17",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "zduSFxRajkE",
+      "series": "z2h",
+      "part": 8,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "The GPT tokenizer",
+      "title": "Let's build the GPT Tokenizer",
+      "why": "Byte-pair encoding built by hand, plus the ways tokenizers quietly damage a model.",
+      "durationSec": 8014,
+      "published": "2024-02-20",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "l8pRSuU81PU",
+      "series": "z2h",
+      "part": 9,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Reproduce GPT-2 (124M)",
+      "title": "Let's reproduce GPT-2 (124M)",
+      "why": "A real training run of the smallest GPT-2, including the data and the systems annoyances.",
+      "durationSec": 14486,
+      "published": "2024-06-09",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "zjkBMFhNj_g",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "deep-learning"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Intro to large language models",
+      "title": "[1hr Talk] Intro to Large Language Models",
+      "why": "Karpathy\u2019s one-hour map of what an LLM is, how it is trained, and where the sharp edges are.",
+      "durationSec": 3588,
+      "published": "2023-11-22",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "7xTGNNLPyMI",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "training",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Deep dive into LLMs like ChatGPT",
+      "title": "Deep Dive into LLMs like ChatGPT",
+      "why": "The longer 2025 walkthrough: pretraining, finetuning, RL, and what the model is doing at inference.",
+      "durationSec": 12683,
+      "published": "2025-02-05",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "EWvNQjAaOHw",
+      "series": null,
+      "part": null,
+      "topics": [
+        "demos",
+        "agents"
+      ],
+      "kind": "demo",
+      "rank": 4,
+      "label": "How I use LLMs",
+      "title": "How I use LLMs",
+      "why": "A working practice, not a tour of products. Karpathy at the keyboard.",
+      "durationSec": 7872,
+      "published": "2025-02-27",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "id": "bZQun8Y4L2A",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "State of GPT",
+      "title": "State of GPT | BRK216HFS",
+      "why": "The Microsoft Build talk: how GPT is trained and why the product behaves the way it does. Still the clean version.",
+      "durationSec": 2560,
+      "published": "2023-05-25",
+      "channel": "Microsoft Developer"
+    },
+    {
+      "id": "DzpHeXVSC5I",
+      "series": "cs224n",
+      "part": 1,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Intro and word vectors",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 1 - Intro and Word Vectors",
+      "why": "Manning\u2019s opening: what this field is, then word vectors as the first real representation.",
+      "durationSec": 4817,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "nBor4jfWetQ",
+      "series": "cs224n",
+      "part": 2,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "Word vectors and language models",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 2 - Word Vectors and Language Models",
+      "why": "From count-based vectors to a language model. The setup the later lectures assume.",
+      "durationSec": 4752,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "HnliVHU2g9U",
+      "series": "cs224n",
+      "part": 3,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Backprop and neural nets",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 3 - Backpropagation, Neural Network",
+      "why": "Backprop and a neural net, in the notation the rest of CS224N uses.",
+      "durationSec": 4407,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "fyc0Jzr74y4",
+      "series": "cs224n",
+      "part": 4,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "Recurrent neural networks",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 5 - Recurrent Neural Networks",
+      "why": "RNNs, kept because the transformer lectures are a reaction to them.",
+      "durationSec": 4732,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "Ba6Fn1-Jsfw",
+      "series": "cs224n",
+      "part": 5,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "Sequence to sequence",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 6 - Sequence to Sequence Models",
+      "why": "Encoder-decoders and the setup attention was invented to fix.",
+      "durationSec": 4629,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "J7ruSOIzhrE",
+      "series": "cs224n",
+      "part": 6,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Attention, and an LLM intro",
+      "title": "Stanford CS224N: NLP w/ DL | Spring 2024 | Lecture 7 - Attention, Final Projects and LLM Intro",
+      "why": "Attention, then the handoff into modern language models.",
+      "durationSec": 4664,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "LWMzyfvuehA",
+      "series": "cs224n",
+      "part": 7,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Self-attention and transformers",
+      "title": "Stanford CS224N NLP with Deep Learning | 2023 | Lecture 8 - Self-Attention and Transformers",
+      "why": "The transformer lecture. The 2024 course still assigns this recording.",
+      "durationSec": 4623,
+      "published": "2023-09-19",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "DGfCRXuNA2w",
+      "series": "cs224n",
+      "part": 8,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Pretraining",
+      "title": "Stanford CS224N NLP with Deep Learning | 2023 | Lecture 9 - Pretraining",
+      "why": "How pretraining is actually organized, before anyone says \u201cfoundation model.\u201d",
+      "durationSec": 4726,
+      "published": "2023-09-19",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "35X6zlhoCy4",
+      "series": "cs224n",
+      "part": 9,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Post-training",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 10 - Post-training by Archit Sharma",
+      "why": "Archit Sharma on what happens after pretraining.",
+      "durationSec": 4782,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "TO0CqzqiArM",
+      "series": "cs224n",
+      "part": 10,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Benchmarking",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 11 - Benchmarking by Yann Dubois",
+      "why": "Yann Dubois on how leaderboards get built and how they get gamed.",
+      "durationSec": 5064,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "UVX7SYGCKkA",
+      "series": "cs224n",
+      "part": 11,
+      "topics": [
+        "training",
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Efficient training",
+      "title": "Stanford CS224N: NLP w/ DL | Spring 2024 | Lecture 12 - Efficient Training, Shikhar Murty",
+      "why": "Shikhar Murty on making training cheaper without pretending the math changed.",
+      "durationSec": 3752,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "I0tj4Y7xaOQ",
+      "series": "cs224n",
+      "part": 12,
+      "topics": [
+        "agents"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Reasoning and agents",
+      "title": "Stanford CS224N: NLP w/ DL | Spring 2024 | Lecture 14 - Reasoning and Agents by Shikhar Murty",
+      "why": "A course lecture on agents from someone building them, not a vendor demo.",
+      "durationSec": 3822,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "dnF463_Ar9I",
+      "series": "cs224n",
+      "part": 13,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "After DPO",
+      "title": "Stanford CS224N: NLP with Deep Learning | Spring 2024 | Lecture 15 - After DPO by Nathan Lambert",
+      "why": "Nathan Lambert on preference tuning after the DPO paper, from the person who writes about this for a living.",
+      "durationSec": 4137,
+      "published": "2025-03-04",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "alfdI7S6wCY",
+      "series": "mit",
+      "part": 1,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Introduction to deep learning",
+      "title": "MIT Introduction to Deep Learning (2025) | 6.S191",
+      "why": "The 2025 opening lecture. A fast, honest map before the specialist courses.",
+      "durationSec": 4165,
+      "published": "2025-03-03",
+      "channel": "Alexander Amini"
+    },
+    {
+      "id": "GvezxUdLrEk",
+      "series": "mit",
+      "part": 2,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RNNs, transformers, and attention",
+      "title": "MIT 6.S191 (2025): Recurrent Neural Networks, Transformers, and Attention",
+      "why": "Sequence models through attention, in one sitting.",
+      "durationSec": 3694,
+      "published": "2025-03-10",
+      "channel": "Alexander Amini"
+    },
+    {
+      "id": "oGpzWAlP5p0",
+      "series": "mit",
+      "part": 3,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "Convolutional neural networks",
+      "title": "MIT 6.S191 (2025): Convolutional Neural Networks",
+      "why": "Vision, still part of the job, without a full CS231n commitment.",
+      "durationSec": 3663,
+      "published": "2025-03-17",
+      "channel": "Alexander Amini"
+    },
+    {
+      "id": "SdTZAMDKrNY",
+      "series": "mit",
+      "part": 4,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "Deep generative modeling",
+      "title": "MIT 6.S191 (2025): Deep Generative Modeling",
+      "why": "VAEs, GANs, and diffusion, as a survey you can trust.",
+      "durationSec": 2936,
+      "published": "2025-03-24",
+      "channel": "Alexander Amini"
+    },
+    {
+      "id": "to-lHJfK4pw",
+      "series": "mit",
+      "part": 5,
+      "topics": [
+        "training",
+        "deep-learning",
+        "rl"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "Reinforcement learning",
+      "title": "MIT 6.S191 (2025): Reinforcement Learning",
+      "why": "RL in one lecture, which is the background the alignment lectures assume.",
+      "durationSec": 3720,
+      "published": "2025-03-31",
+      "channel": "Alexander Amini"
+    },
+    {
+      "id": "HLKo4fJx_7k",
+      "series": "mit",
+      "part": 6,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Language models and new frontiers",
+      "title": "MIT 6.S191 (2025): Language Models and New Frontiers",
+      "why": "Where the 2025 course thinks the field actually is.",
+      "durationSec": 2856,
+      "published": "2025-04-07",
+      "channel": "Alexander Amini"
+    },
+    {
+      "id": "aircAruvnKk",
+      "series": "3b1b",
+      "part": 1,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "But what is a neural network?",
+      "title": "But what is a neural network? | Deep learning chapter 1",
+      "why": "The network as a function. Start here if the notation has gone cold.",
+      "durationSec": 1120,
+      "published": "2017-10-05",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "IHZwWFHWa-w",
+      "series": "3b1b",
+      "part": 2,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Gradient descent",
+      "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "why": "Learning as walking downhill on a cost surface.",
+      "durationSec": 1233,
+      "published": "2017-10-16",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "Ilg3gGewQ5U",
+      "series": "3b1b",
+      "part": 3,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Backprop, intuitively",
+      "title": "Backpropagation, intuitively | Deep Learning Chapter 3",
+      "why": "The chain rule, shown rather than asserted.",
+      "durationSec": 767,
+      "published": "2017-11-03",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "tIeHLnjs5U8",
+      "series": "3b1b",
+      "part": 4,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Backprop calculus",
+      "title": "Backpropagation calculus | Deep Learning Chapter 4",
+      "why": "The same story with the derivatives written out.",
+      "durationSec": 617,
+      "published": "2017-11-03",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "LPZh9BOjkQs",
+      "series": "3b1b",
+      "part": 5,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Large language models, briefly",
+      "title": "Large Language Models explained briefly",
+      "why": "A short, accurate picture of an LLM. The longer chapters come next.",
+      "durationSec": 478,
+      "published": "2024-11-20",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "wjZofJX0v4M",
+      "series": "3b1b",
+      "part": 6,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Transformers",
+      "title": "Transformers, the tech behind LLMs | Deep Learning Chapter 5",
+      "why": "The architecture picture: attention as routing information.",
+      "durationSec": 1634,
+      "published": "2024-04-01",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "eMlx5fFNoYc",
+      "series": "3b1b",
+      "part": 7,
+      "topics": [
+        "deep-learning",
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Attention, step by step",
+      "title": "Attention in transformers, step-by-step | Deep Learning Chapter 6",
+      "why": "Queries, keys, and values, one step at a time. Watch this before the kernel lectures.",
+      "durationSec": 1569,
+      "published": "2024-04-07",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "9-Jl0dxWQs8",
+      "series": "3b1b",
+      "part": 8,
+      "topics": [
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "How LLMs might store facts",
+      "title": "How might LLMs store facts | Deep Learning Chapter 7",
+      "why": "A careful guess at where a fact lives inside the network.",
+      "durationSec": 1362,
+      "published": "2024-08-31",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "GlYgs6v2YfU",
+      "series": "3b1b",
+      "part": 9,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 3,
+      "label": "What cross-entropy is",
+      "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
+      "why": "The training objective, via compression. Short and worth it.",
+      "durationSec": 2031,
+      "published": "2026-07-16",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "id": "bCz4OMemCcA",
+      "series": "scratch",
+      "part": 1,
+      "topics": [
+        "deep-learning",
+        "training",
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Attention is all you need, derived",
+      "title": "Attention is all you need (Transformer) - Model explanation (including math), Inference and Training",
+      "why": "The transformer paper, including the math, then training and inference.",
+      "durationSec": 3484,
+      "published": "2023-05-28",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "ISNdQcPhsts",
+      "series": "scratch",
+      "part": 2,
+      "topics": [
+        "training",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "A transformer, coded",
+      "title": "Coding a Transformer from scratch on PyTorch, with full explanation, training and inference.",
+      "why": "The same model, in PyTorch, trained. Pairs with the derivation.",
+      "durationSec": 10764,
+      "published": "2023-05-25",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "Mn_9W1nCFLo",
+      "series": "scratch",
+      "part": 3,
+      "topics": [
+        "inference",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "LLaMA, explained",
+      "title": "LLaMA explained: KV-Cache, Rotary Positional Embedding, RMS Norm, Grouped Query Attention, SwiGLU",
+      "why": "The pieces that separate LLaMA from the 2017 transformer: RoPE, RMSNorm, GQA, SwiGLU, KV cache.",
+      "durationSec": 4254,
+      "published": "2023-08-24",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "oM4VmoabDAI",
+      "series": "scratch",
+      "part": 4,
+      "topics": [
+        "inference",
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "LLaMA 2, coded",
+      "title": "Coding LLaMA 2 from scratch in PyTorch - KV Cache, Grouped Query Attention, Rotary PE, RMSNorm",
+      "why": "Those pieces, written out, plus greedy, temperature, top-k, and top-p.",
+      "durationSec": 11051,
+      "published": "2023-09-02",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "zy8ChVd_oTM",
+      "series": "scratch",
+      "part": 5,
+      "topics": [
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "FlashAttention, derived and coded",
+      "title": "Flash Attention derived and coded from first principles with Triton (Python)",
+      "why": "The IO argument for FlashAttention, then a Triton implementation.",
+      "durationSec": 27498,
+      "published": "2024-11-13",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "0VdNflU08yA",
+      "series": "scratch",
+      "part": 6,
+      "topics": [
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "Quantization",
+      "title": "Quantization explained with PyTorch - Post-Training Quantization, Quantization-Aware Training",
+      "why": "PTQ and QAT with the arithmetic visible.",
+      "durationSec": 3054,
+      "published": "2023-12-11",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "PXWYUTMt-AU",
+      "series": "scratch",
+      "part": 7,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "LoRA, coded",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models - Explained visually + PyTorch code from scratch",
+      "why": "Low-rank adapters, visually and in code.",
+      "durationSec": 1614,
+      "published": "2023-07-25",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "hvGa5Mba4c8",
+      "series": "scratch",
+      "part": 8,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "DPO, derived",
+      "title": "Direct Preference Optimization (DPO) explained: Bradley-Terry model, log probabilities, math",
+      "why": "The Bradley-Terry step and the loss, not a recap of the abstract.",
+      "durationSec": 2926,
+      "published": "2024-04-13",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "qGyFrqc34yc",
+      "series": "scratch",
+      "part": 9,
+      "topics": [
+        "training",
+        "rl"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RLHF, with the code",
+      "title": "Reinforcement Learning from Human Feedback explained with math derivations and the PyTorch code.",
+      "why": "Reward model and policy gradient, derived and implemented.",
+      "durationSec": 8113,
+      "published": "2024-02-26",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "XoGvCBRnwLs",
+      "series": "scratch",
+      "part": 10,
+      "topics": [
+        "training"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "A distributed trainer, from scratch",
+      "title": "Building a distributed training framework from first principles",
+      "why": "Data parallel training as a system you could have written.",
+      "durationSec": 70485,
+      "published": "2026-08-17",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "loZ4xQ5RZuU",
+      "series": "gpumode",
+      "part": 112,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Production megakernels",
+      "title": "Lecture 112: Production Megakernels for Real-World Inference",
+      "why": "Fusing a real inference stack into megakernels, from people shipping it.",
+      "durationSec": 3484,
+      "published": "2026-08-19",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "TZnJYRTSGVk",
+      "series": "gpumode",
+      "part": 113,
+      "topics": [
+        "inference",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Near speed-of-light collectives",
+      "title": "Lecture 113: Every Microsecond Matters: Achieving Near Speed-of-Light Latency in GPU Collectives",
+      "why": "Collective communication when latency, not just bandwidth, is the budget.",
+      "durationSec": 3172,
+      "published": "2026-08-25",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "wiaUh82NEoE",
+      "series": "gpumode",
+      "part": 110,
+      "topics": [
+        "training",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "NVFP4 and the 4-bitter lesson",
+      "title": "Lecture 110: The 4-bitter lesson: Balancing Stability and Performance in NVFP4 RL",
+      "why": "Training in 4-bit without the run falling over.",
+      "durationSec": 3686,
+      "published": "2026-08-03",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "HcnybHRbTcc",
+      "series": "gpumode",
+      "part": 105,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "cuDNN mxfp8 attention",
+      "title": "Lecture 105: cuDNN mxfp8 attention",
+      "why": "Low-precision attention inside the library people actually call.",
+      "durationSec": 3617,
+      "published": "2026-05-02",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "jGouxuAHIfQ",
+      "series": "gpumode",
+      "part": 101,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Learning CUTLASS the hard way",
+      "title": "Lecture 101: Learning CUTLASS the hard way",
+      "why": "CUTLASS from the inside, which is how serious attention kernels get written.",
+      "durationSec": 4276,
+      "published": "2026-03-21",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "kPBTBl7xvEY",
+      "series": "gpumode",
+      "part": 100,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "InferenceX",
+      "title": "Lecture 100: InferenceX Continuous OSS Inference Benchmarking",
+      "why": "A continuous benchmark of open serving stacks, so \u201cfast\u201d has a number.",
+      "durationSec": 4326,
+      "published": "2026-03-04",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "PQZt5L5Mwtg",
+      "series": "gpumode",
+      "part": 92,
+      "topics": [
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Smol training playbook",
+      "title": "Lecture 92: Smol Training Playbook",
+      "why": "What a small, serious training run looks like when a lab writes it down.",
+      "durationSec": 5162,
+      "published": "2026-01-17",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "Jew4lhAiqnw",
+      "series": "gpumode",
+      "part": 91,
+      "topics": [
+        "rl-env",
+        "agents",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "RL, agents, and OpenEnv",
+      "title": "Mega Lecture 91: Reinforcement Learning, Agents & OpenEnv",
+      "why": "A long session on RL and agent environments from the GPU MODE crowd. The other environment stack, beside Prime Intellect.",
+      "durationSec": 12110,
+      "published": "2026-01-14",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "9-dfte_N3yk",
+      "series": "gpumode",
+      "part": 86,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "Getting started with CuTe",
+      "title": "Lecture 86: Getting Started with CuTe DSL",
+      "why": "CuTe layouts, the vocabulary modern CUDA kernels are written in.",
+      "durationSec": 4398,
+      "published": "2025-12-07",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "iXvYa2oIMbA",
+      "series": "gpumode",
+      "part": 85,
+      "topics": [
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "Factorio learning environment",
+      "title": "Lecture 85: Factorio Learning Environment",
+      "why": "An agent benchmark with a real environment, not a prompt template.",
+      "durationSec": 3972,
+      "published": "2025-12-05",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "ua2NhlenIKo",
+      "series": "gpumode",
+      "part": 84,
+      "topics": [
+        "training",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Numerics and AI",
+      "title": "Lecture 84: Numerics and AI",
+      "why": "Floating point as a design constraint on training and inference.",
+      "durationSec": 9548,
+      "published": "2025-11-15",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "VPslgC9piIw",
+      "series": "gpumode",
+      "part": 80,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "How FlashAttention 4 works",
+      "title": "Lecture 80: How FlashAttention 4 Works",
+      "why": "The current FlashAttention, explained at the level of the kernel.",
+      "durationSec": 4509,
+      "published": "2025-10-01",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "sXDdRCy137c",
+      "series": "gpumode",
+      "part": 79,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Compiling LLMs into megakernels",
+      "title": "Lecture 79 Mirage (MPK): Compiling LLMs into Mega Kernels",
+      "why": "Mirage: compiling a model into one kernel instead of a launch sequence.",
+      "durationSec": 4372,
+      "published": "2025-09-14",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "Cl2B_hmg4gA",
+      "series": "gpumode",
+      "part": 75,
+      "topics": [
+        "inference",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "GPU programming fundamentals",
+      "title": "Lecture 75 [ScaleML Series] GPU Programming Fundamentals + ThunderKittens",
+      "why": "The occupancy, memory, and tiling lecture, plus ThunderKittens.",
+      "durationSec": 9562,
+      "published": "2025-08-31",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "6Cxnnvv3DnY",
+      "series": "gpumode",
+      "part": 73,
+      "topics": [
+        "inference",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Quantization in large models",
+      "title": "Lecture 73: [ScaleML Series] Quantization in Large Models",
+      "why": "Quantization from the Scale ML series, aimed at people who will implement it.",
+      "durationSec": 4706,
+      "published": "2025-08-31",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "DFcKFDt0QEg",
+      "series": "gpumode",
+      "part": 72,
+      "topics": [
+        "inference",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "Long-context modeling",
+      "title": "Lecture 72: [ScaleML Series] Efficient & Effective Long-Context Modeling for Large Language Models",
+      "why": "What long context costs and which tricks survive contact with a real model.",
+      "durationSec": 3318,
+      "published": "2025-08-31",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "XVo17Q7YapA",
+      "series": "gpumode",
+      "part": 69,
+      "topics": [
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "Quartet: 4-bit training",
+      "title": "Lecture 69: Quartet 4 bit training",
+      "why": "A concrete 4-bit training method, presented to kernel people.",
+      "durationSec": 4150,
+      "published": "2025-08-23",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "BgeFR4UfajQ",
+      "series": "gpumode",
+      "part": 64,
+      "topics": [
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Multi-GPU programming",
+      "title": "Lecture 64: Multi-GPU programming",
+      "why": "Programming more than one GPU, which is where training actually happens.",
+      "durationSec": 4522,
+      "published": "2025-07-24",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "RTJKXK5L8gw",
+      "series": "gpumode",
+      "part": 60,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Optimizing linear attention",
+      "title": "Lecture 60: Optimizing Linear Attention",
+      "why": "Linear attention as a kernel problem, not a blog diagram.",
+      "durationSec": 4058,
+      "published": "2025-06-07",
+      "channel": "GPU MODE"
+    },
+    {
+      "id": "gMOAud7hZg4",
+      "series": null,
+      "part": null,
+      "topics": [
+        "inference",
+        "talks"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "FlashAttention, by Tri Dao",
+      "title": "FlashAttention - Tri Dao | Stanford MLSys #67",
+      "why": "The author, at the Stanford MLSys seminar. The original talk to watch before the later FlashAttention lectures.",
+      "durationSec": 3538,
+      "published": "2023-01-11",
+      "channel": "Stanford MLSys Seminars"
+    },
+    {
+      "id": "9ih0EmcXRHE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "inference",
+        "talks"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "vLLM and PagedAttention",
+      "title": "vLLM: Easy, Fast, and Cheap LLM Serving for Everyone - Woosuk Kwon & Xiaoxuan Liu, UC Berkeley",
+      "why": "The Berkeley authors on PagedAttention and why serving was memory-bound in a stupid way.",
+      "durationSec": 1412,
+      "published": "2024-10-01",
+      "channel": "PyTorch"
+    },
+    {
+      "id": "w9-AYqIhHRo",
+      "series": null,
+      "part": null,
+      "topics": [
+        "inference",
+        "talks"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "SGLang",
+      "title": "SGLang: An Efficient Open-Source Framework for Large-Scale LLM Serving | Ray Summit 2025",
+      "why": "The serving stack next to vLLM, from a Ray Summit talk rather than a product launch.",
+      "durationSec": 1699,
+      "published": "2025-11-20",
+      "channel": "Anyscale"
+    },
+    {
+      "id": "rew5CSUaIXg",
+      "series": null,
+      "part": null,
+      "topics": [
+        "training",
+        "inference",
+        "talks"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "torch.compile, the missing manual",
+      "title": "torch.compile: The Missing Manual",
+      "why": "The compiler that sits under a lot of training and inference code, explained as a manual.",
+      "durationSec": 915,
+      "published": "2024-08-13",
+      "channel": "PyTorch"
+    },
+    {
+      "id": "D7_ipDqhtwk",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents",
+        "talks"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "How Anthropic builds agents",
+      "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+      "why": "Barry Zhang on the patterns Anthropic actually uses. Workflows, then agents, when each is worth it.",
+      "durationSec": 909,
+      "published": "2025-04-04",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "CEvIs9y1uog",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents",
+        "talks"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Don't build agents, build skills",
+      "title": "Don't Build Agents, Build Skills Instead \u2013 Barry Zhang & Mahesh Murag, Anthropic",
+      "why": "The follow-up from Anthropic engineers: skills and structure, after the first wave of agent demos.",
+      "durationSec": 982,
+      "published": "2025-12-08",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "PLyCki2K0Lg",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents",
+        "releases"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "Why Anthropic built MCP",
+      "title": "Why we built\u2014and donated\u2014the Model Context Protocol (MCP)",
+      "why": "The primary account of MCP, from Anthropic, not a tutorial channel.",
+      "durationSec": 2132,
+      "published": "2025-12-11",
+      "channel": "Anthropic"
+    },
+    {
+      "id": "64lXQP6cs5M",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "inference",
+        "training"
+      ],
+      "kind": "interview",
+      "rank": 5,
+      "label": "Sholto Douglas and Trenton Bricken",
+      "title": "Is RL + LLMs enough for AGI? \u2014 Sholto Douglas & Trenton Bricken",
+      "why": "Two Anthropic researchers, long-form, on inference-time compute, RL, and what the labs are actually doing.",
+      "durationSec": 8641,
+      "published": "2025-05-22",
+      "channel": "Dwarkesh Patel"
+    },
+    {
+      "id": "xmkSf5IS-zw",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "training",
+        "inference"
+      ],
+      "kind": "interview",
+      "rank": 5,
+      "label": "How the frontier models are trained and served",
+      "title": "How GPT, Claude, and Gemini are actually trained and served \u2013 Reiner Pope",
+      "why": "Reiner Pope on the training and serving systems behind the frontier models. Rarely this concrete.",
+      "durationSec": 8020,
+      "published": "2026-04-29",
+      "channel": "Dwarkesh Patel"
+    },
+    {
+      "id": "X_ZVSPcZhtw",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "training",
+        "agents"
+      ],
+      "kind": "interview",
+      "rank": 4,
+      "label": "Rebuilding AlphaGo",
+      "title": "What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs - Eric Jang",
+      "why": "Eric Jang on self-play and RL, from having rebuilt AlphaGo. Engineering, then the implication.",
+      "durationSec": 9437,
+      "published": "2026-05-15",
+      "channel": "Dwarkesh Patel"
+    },
+    {
+      "id": "ddd4xjuJTyg",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents",
+        "talks",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Test-time compute, Noam Brown",
+      "title": "Scaling Test Time Compute to Multi-Agent Civilizations \u2014 Noam Brown, OpenAI",
+      "why": "Noam Brown, who works on this, on spending compute at inference across agents.",
+      "durationSec": 4667,
+      "published": "2025-06-19",
+      "channel": "Latent Space"
+    },
+    {
+      "id": "6AgOfiZOWiY",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents",
+        "talks"
+      ],
+      "kind": "interview",
+      "rank": 4,
+      "label": "Agent swarms, from an OpenAI researcher",
+      "title": "OpenAI researcher on agent swarms & recursive self-improvement",
+      "why": "A long interview with an OpenAI researcher who works on agent swarms.",
+      "durationSec": 4810,
+      "published": "2026-09-17",
+      "channel": "Dwarkesh Patel"
+    },
+    {
+      "id": "n1E9IZfvGMA",
+      "series": null,
+      "part": null,
+      "topics": [
+        "news",
+        "talks"
+      ],
+      "kind": "interview",
+      "rank": 4,
+      "label": "Dario Amodei on the exponential",
+      "title": "Dario Amodei \u2014 \u201cWe are near the end of the exponential\u201d",
+      "why": "A long interview with Anthropic\u2019s CEO, for the lab\u2019s own account of where the work is going.",
+      "durationSec": 8540,
+      "published": "2026-02-13",
+      "channel": "Dwarkesh Patel"
+    },
+    {
+      "id": "tBjgCj_dGZM",
+      "series": null,
+      "part": null,
+      "topics": [
+        "talks",
+        "deep-learning"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "The mathematics of AI uncertainty",
+      "title": "The mathematics of AI uncertainty",
+      "why": "A DeepMind session on uncertainty. Long enough to be the work, not a teaser.",
+      "durationSec": 2681,
+      "published": "2026-08-26",
+      "channel": "Google DeepMind"
+    },
+    {
+      "id": "vRQs7qfIDaU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "releases",
+        "talks",
+        "deep-learning"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "On the biology of a language model",
+      "title": "Stanford CS25: V5 I On the Biology of a Large Language Model, Josh Batson of Anthropic",
+      "why": "Josh Batson on Anthropic\u2019s interpretability paper. A research release, delivered as a real lecture.",
+      "durationSec": 4352,
+      "channel": "Stanford Online",
+      "published": "2025-06-05"
+    },
+    {
+      "id": "Bj9BD2D3DzA",
+      "series": null,
+      "part": null,
+      "topics": [
+        "releases",
+        "deep-learning"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Tracing the thoughts of a language model",
+      "title": "Tracing the thoughts of a large language model",
+      "why": "Anthropic walking through a circuit they found. The paper, shown.",
+      "durationSec": 175,
+      "channel": "Anthropic",
+      "published": "2025-03-27"
+    },
+    {
+      "id": "J9gfTLthGVI",
+      "series": null,
+      "part": null,
+      "topics": [
+        "releases",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Llama 3, with Thomas Scialom",
+      "title": "LLaMA 3 Deep Dive! (Thomas Scialom - Meta)",
+      "why": "A Meta researcher on how Llama 3 was trained. The release, from the team.",
+      "durationSec": 3200,
+      "channel": "Aleksa Gordi\u0107 - The AI Epiphany",
+      "published": "2024-07-31"
+    },
+    {
+      "id": "am_oeAoUhew",
+      "series": "harness",
+      "part": 1,
+      "topics": [
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Humans steer, agents execute",
+      "title": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute \u2014 Ryan Lopopolo, OpenAI",
+      "why": "Ryan Lopopolo on the job when agents write the code: skills, checks, and a harness that runs until the tests are green.",
+      "durationSec": 2780,
+      "published": "2026-04-16",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "shRR1e2HXMk",
+      "series": "harness",
+      "part": 2,
+      "topics": [
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "How Codex works, behind the harness",
+      "title": "How Codex Works \u2014 Dominik Kundel, OpenAI",
+      "why": "Dominik Kundel opens the Codex harness: context, tools, sandbox, approvals, continuation, compaction.",
+      "durationSec": 1254,
+      "published": "2026-08-10",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "xIt_mTQp6mY",
+      "series": "harness",
+      "part": 3,
+      "topics": [
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Loop engineering",
+      "title": "Loop Engineering from First Principles \u2014 Kyle Mistele, HumanLayer",
+      "why": "The loop itself: measure the codebase, make one change, measure again, and do not outrun review.",
+      "durationSec": 1077,
+      "published": "2026-07-25",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "wsFd22SL1s8",
+      "series": "harness",
+      "part": 4,
+      "topics": [
+        "harness"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "A sandbox, from scratch",
+      "title": "Arrakis: How To Build An AI Sandbox From Scratch - Abhishek Bhardwaj, OpenAI",
+      "why": "Abhishek Bhardwaj on where generated code is allowed to run. MicroVMs, snapshots, and a boundary with the host.",
+      "durationSec": 2418,
+      "published": "2025-06-03",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "2aS7aKoXn64",
+      "series": "harness",
+      "part": 5,
+      "topics": [
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Environments for long-horizon work",
+      "title": "Rethinking Environments for Long-Horizon Work \u2014 Rayan Garg, Theta Software",
+      "why": "What the environment has to contain if an earlier action is going to change a later one, and the judge can see the result.",
+      "durationSec": 1274,
+      "published": "2026-07-31",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "mR-WAvEPRwE",
+      "series": "harness",
+      "part": 6,
+      "topics": [
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Agents that run for hours",
+      "title": "Anthropic Workshop: Build Agents That Run for Hours \u2014 Ash Prabaker & Andrew Wilson",
+      "why": "Anthropic engineers on fresh sessions, a plan, progress files, commits, and an evaluator that is not the agent.",
+      "durationSec": 4540,
+      "published": "2026-05-18",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "vi-2nasppAg",
+      "series": "harness",
+      "part": 7,
+      "topics": [
+        "harness"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "An event-sourced harness",
+      "title": "Make your own event-sourced agent harness using stream processors \u2014 Jonas Templestein & Misha, Iterate",
+      "why": "State as an append-only log, so a long run can be rebuilt without replaying every side effect.",
+      "durationSec": 3866,
+      "published": "2026-05-14",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "bZISsg7H7DA",
+      "series": "harness",
+      "part": 8,
+      "topics": [
+        "harness"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "A save button for agents",
+      "title": "Your Agents Need a Save Button - Hamza Tahir, ZenML",
+      "why": "Checkpoint the code, filesystem, and variables so a run can be resumed or forked onto a new model.",
+      "durationSec": 1027,
+      "published": "2026-07-18",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "BInpv7lGp1o",
+      "series": "harness",
+      "part": 9,
+      "topics": [
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "The model was right. The harness failed.",
+      "title": "The Model Was Right. The Harness Failed. \u2014 Vinoth Govindarajan, OpenAI",
+      "why": "A production receipt: what woke the agent, what state it inherited, what it was allowed to do, and what evidence reached the user.",
+      "durationSec": 1105,
+      "published": "2026-07-29",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "-pGs0btGmgY",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "AlphaFold, from the challenge to the prize",
+      "title": "AlphaFold: Grand challenge to Nobel Prize | John Jumper",
+      "why": "John Jumper on AlphaFold. Applied AI with a result you can point at, told by the person who built it.",
+      "durationSec": 2904,
+      "published": "2025-11-28",
+      "channel": "Google DeepMind"
+    },
+    {
+      "id": "spamOhG7BOA",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "LLM applications for production",
+      "title": "Building LLM Applications for Production // Chip Huyen // LLMs in Prod Conference",
+      "why": "Chip Huyen on what changes when a language model has to survive production, not a demo.",
+      "durationSec": 2123,
+      "published": "2023-06-29",
+      "channel": "AAIF Live"
+    },
+    {
+      "id": "PKtR41eEVDU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "AI engineering anti-patterns",
+      "title": "AI Engineering Anti-patterns - Chip Huyen | Craft 2025",
+      "why": "The failure modes Chip Huyen keeps seeing once teams try to ship, not just prompt.",
+      "durationSec": 2645,
+      "published": "2026-04-15",
+      "channel": "CraftHub Events"
+    },
+    {
+      "id": "uiza7wp1KrE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Evals, on a real example",
+      "title": "AI Evaluations Clearly Explained in 50 Minutes (Real Example) | Hamel Husain",
+      "why": "Hamel Husain walking through an eval on a real product. Applied, and specific.",
+      "durationSec": 3150,
+      "published": "2025-09-28",
+      "channel": "Peter Yang"
+    },
+    {
+      "id": "F8fBgDCf2Y4",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Software engineering in the age of AI",
+      "title": "Kent Beck: Software Engineering in the Age of AI | Prodacity 2026",
+      "why": "Kent Beck on what engineering still is once agents write a lot of the code.",
+      "durationSec": 3112,
+      "published": "2026-09-29",
+      "channel": "Rise8"
+    },
+    {
+      "id": "owmJyKVu5f8",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "harness",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Practices that make coding agents work",
+      "title": "Simon Willison: Engineering practices that make coding agents work - The Pragmatic Summit",
+      "why": "Simon Willison on the habits, tests, and boundaries that make a coding agent useful.",
+      "durationSec": 1700,
+      "published": "2026-03-19",
+      "channel": "The Pragmatic Engineer"
+    },
+    {
+      "id": "shZgedW15vg",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents",
+        "applied",
+        "demos"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "How Anthropic uses Claude Code",
+      "title": "How Anthropic uses Claude Code: Agentic Software Engineering at Scale - Daisy Hollman",
+      "why": "Daisy Hollman on agentic software engineering inside Anthropic, at the scale they actually run.",
+      "durationSec": 3625,
+      "published": "2026-08-11",
+      "channel": "NDC Conferences"
+    },
+    {
+      "id": "AnsXWH2_EBU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "30,000 code changes a day",
+      "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
+      "why": "Addy Osmani on the merge queue when agents are producing a large share of the diffs.",
+      "durationSec": 1132,
+      "published": "2026-10-28",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "9-Y_oS9OBLc",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 3,
+      "label": "When your own models beat the API",
+      "title": "When Running Your Own AI Models Beats Paying for APIs - Steven Latr\u00e9, imec",
+      "why": "A concrete case for self-hosting, from a lab that did the cost and latency math.",
+      "durationSec": 1109,
+      "published": "2026-10-31",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "S-sYlFiGFv8",
+      "series": null,
+      "part": null,
+      "topics": [
+        "demos",
+        "agents"
+      ],
+      "kind": "demo",
+      "rank": 5,
+      "label": "How the Claude Code team uses Claude Code",
+      "title": "How the Claude Code team uses Claude Code",
+      "why": "The team that builds it, using it. A working demo from Claude.",
+      "durationSec": 1343,
+      "published": "2026-09-02",
+      "channel": "Claude"
+    },
+    {
+      "id": "IlqJqcl8ONE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "demos",
+        "agents"
+      ],
+      "kind": "demo",
+      "rank": 4,
+      "label": "How we Claude Code",
+      "title": "How we Claude Code",
+      "why": "Another pass from the Claude team, at the keyboard.",
+      "durationSec": 1903,
+      "published": "2026-05-22",
+      "channel": "Claude"
+    },
+    {
+      "id": "6eBSHbLKuN0",
+      "series": null,
+      "part": null,
+      "topics": [
+        "demos",
+        "agents"
+      ],
+      "kind": "demo",
+      "rank": 4,
+      "label": "Claude Code, in half an hour",
+      "title": "Mastering Claude Code in 30 minutes",
+      "why": "Anthropic\u2019s own half-hour tour of the tool. A demo, not a roundup.",
+      "durationSec": 1687,
+      "published": "2025-05-22",
+      "channel": "Anthropic"
+    },
+    {
+      "id": "eSP7PLTXNy8",
+      "series": null,
+      "part": null,
+      "topics": [
+        "demos",
+        "agents"
+      ],
+      "kind": "demo",
+      "rank": 4,
+      "label": "A proactive agent workflow",
+      "title": "Build a proactive agent workflow with Claude Code",
+      "why": "Claude building a workflow that acts without waiting for the next prompt.",
+      "durationSec": 1323,
+      "published": "2026-05-20",
+      "channel": "Claude"
+    },
+    {
+      "id": "Iabue7wtE4g",
+      "series": null,
+      "part": null,
+      "topics": [
+        "demos",
+        "agents"
+      ],
+      "kind": "demo",
+      "rank": 3,
+      "label": "Computer use, hands on",
+      "title": "Anthropic Computer Use - Hands On Tutorial",
+      "why": "Sam Witteveen driving Anthropic\u2019s computer-use agent through a real task.",
+      "durationSec": 551,
+      "published": "2024-10-23",
+      "channel": "Sam Witteveen"
+    },
+    {
+      "id": "zgNvts_2TUE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "news",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "State of the Claw",
+      "title": "State of the Claw \u2014 Peter Steinberger",
+      "why": "Peter Steinberger on where OpenClaw and this kind of agent actually are. A briefing, not a recap channel.",
+      "durationSec": 2652,
+      "published": "2026-04-17",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "maTCM0_EM08",
+      "series": null,
+      "part": null,
+      "topics": [
+        "news"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "The last six months in LLMs",
+      "title": "Simon Willison's Lightning Talk \"The Last Six Months in LLMs in five minutes\" at PyCon US 2026",
+      "channel": "Simon Willison",
+      "why": "Simon Willison\u2019s PyCon briefing. Five minutes, and he names what actually changed.",
+      "durationSec": 300,
+      "published": "2026-05-22"
+    },
+    {
+      "id": "rhZgXNdhWDY",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RAG, derived",
+      "title": "Retrieval Augmented Generation (RAG) Explained",
+      "why": "Umar Jamil deriving embeddings, retrieval, and generation. The applied tutorial for giving a model your documents.",
+      "durationSec": 2964,
+      "published": "2023-11-26",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "QytYcjTkkQU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "smolagents, from the author",
+      "title": "smol agents are all you need",
+      "why": "Aymeric Roucher, who wrote smolagents and the Hugging Face agents course, on what an agent is, how to build one, and how to eval it.",
+      "durationSec": 1351,
+      "published": "2025-02-13",
+      "channel": "Latent Space"
+    },
+    {
+      "id": "J1APR8Bo9dE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rlvr",
+        "rl"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "The reinforcement learning era",
+      "title": "Early stages of the reinforcement learning era of language models",
+      "why": "Nathan Lambert teaching how reinforcement finetuning is done, from the Ai2 experiments through DeepSeek R1.",
+      "durationSec": 3571,
+      "published": "2025-03-10",
+      "channel": "Nathan Lambert"
+    },
+    {
+      "id": "amrJDwMUFNs",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rlvr",
+        "rl"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "GRPO, in the implementation",
+      "title": "GRPO's new variants and implementation secrets",
+      "why": "Nathan Lambert on the GRPO loss: where it differs from PPO, and the implementation choices that change the run.",
+      "durationSec": 1343,
+      "published": "2025-03-23",
+      "channel": "Nathan Lambert"
+    },
+    {
+      "id": "PAz_-xPJcRM",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rlvr",
+        "rl"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "The RLVR revolution",
+      "title": "The RLVR Revolution \u2014 with Nathan Lambert (AI2, Interconnects.ai)",
+      "why": "Nathan Lambert on the shift from a human preference reward to a checker. The map of RLVR.",
+      "durationSec": 4739,
+      "published": "2025-07-31",
+      "channel": "Latent Space"
+    },
+    {
+      "id": "AQv3qRCG6Gw",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rlvr",
+        "rl",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "When the reward is not verifiable",
+      "title": "Reinforcement Learning without Verifiable Rewards \u2014 Will Brown, Prime Intellect",
+      "why": "Will Brown, Prime Intellect, on the tasks where you cannot write a checker, and what you train against instead.",
+      "durationSec": 1166,
+      "published": "2026-07-31",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "V-EDrhIhHzQ",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Modern post-training",
+      "title": "Modern Post-Training: A Deep Dive \u2014 Will Brown, Prime Intellect",
+      "why": "Will Brown\u2019s deep dive on the post-training stack Prime Intellect actually runs.",
+      "durationSec": 2812,
+      "published": "2026-07-13",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "PbHm2qKnu10",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl",
+        "agents",
+        "rlvr"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Training agentic reasoners",
+      "title": "Training Agentic Reasoners \u2014 Will Brown, Prime Intellect",
+      "why": "Will Brown on training a model that reasons with tools, not only one that answers a checked question.",
+      "durationSec": 1156,
+      "published": "2025-07-07",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "xqPTNIn4pjg",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl-env",
+        "rl"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "An open environment ecosystem",
+      "title": "Scaling an Open Environments Ecosystem for Reinforcement Learning - Will Brown, Prime Intellect",
+      "why": "Will Brown on verifiers, the Environments Hub, and prime-rl. The design of an environment you can train on.",
+      "durationSec": 1619,
+      "published": "2025-11-03",
+      "channel": "PyTorch"
+    },
+    {
+      "id": "_IzZWeuTx7I",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl-env",
+        "rl"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "RL environments at scale",
+      "title": "RL Environments at Scale \u2013 Will Brown, Prime Intellect",
+      "why": "The same stack, told later, once the hub was being run at scale.",
+      "durationSec": 1110,
+      "published": "2025-12-09",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "04k8UsCYBvc",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl-env",
+        "demos"
+      ],
+      "kind": "demo",
+      "rank": 4,
+      "label": "Verifiers and the Environments Hub",
+      "title": "How to use verifiers with Environments Hub on Prime Intellect",
+      "why": "Prime Intellect\u2019s own walkthrough of the verifiers library on the Environments Hub.",
+      "durationSec": 754,
+      "published": "2025-10-09",
+      "channel": "Prime Intellect AI"
+    },
+    {
+      "id": "furFAnmbam0",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl-env",
+        "rl",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Multi-turn RL for long agents",
+      "title": "Multi-Turn RL for Multi-Hour Agents \u2014 with Will Brown, Prime Intellect",
+      "why": "Will Brown on reinforcement learning when the rollout is a long agent, not a single answer.",
+      "durationSec": 2339,
+      "published": "2025-05-22",
+      "channel": "Latent Space"
+    },
+    {
+      "id": "SJc1y5z5wwM",
+      "series": null,
+      "part": null,
+      "topics": [
+        "rl-env",
+        "rl"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "A GitHub for RL environments",
+      "title": "Building the GitHub for RL Environments: Prime Intellect's Will Brown & Johannes Hagemann",
+      "why": "Will Brown and Johannes Hagemann on why environments need a shared hub, and what Prime Intellect built.",
+      "durationSec": 2686,
+      "published": "2026-02-10",
+      "channel": "Sequoia Capital"
+    },
+    {
+      "id": "Ny4xxErgFgQ",
+      "series": null,
+      "part": null,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "SGLang, from the author",
+      "title": "Efficient LLM Inference with SGLang, Lianmin Zheng, xAI",
+      "why": "Lianmin Zheng on SGLang: radix attention, structured generation, and why the cache should be shared across calls.",
+      "durationSec": 1476,
+      "published": "2024-12-18",
+      "channel": "AMD Developer Central"
+    },
+    {
+      "id": "oMb_WiUwf5o",
+      "series": null,
+      "part": null,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Multi-GPU inference in vLLM",
+      "title": "The Evolution of Multi-GPU Inference in vLLM | Ray Summit 2024",
+      "why": "How vLLM splits a model across GPUs: tensor parallelism, pipeline parallelism, and what breaks when you add the second device.",
+      "durationSec": 1852,
+      "published": "2024-10-21",
+      "channel": "Anyscale"
+    },
+    {
+      "id": "DhRoTONcyZE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "LoRA, from the inventor",
+      "title": "What is Low-Rank Adaptation (LoRA) | explained by the inventor",
+      "why": "Edward Hu on why LoRA exists and what the low-rank update actually is.",
+      "durationSec": 448,
+      "published": "2024-01-09",
+      "channel": "Edward Hu"
+    },
+    {
+      "id": "fQirE9N5q_Y",
+      "series": null,
+      "part": null,
+      "topics": [
+        "training",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "QLoRA, from the author",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs | Tim Dettmers",
+      "why": "Tim Dettmers on finetuning a quantized model without loading the full weights in 16-bit.",
+      "durationSec": 1847,
+      "published": "2023-10-13",
+      "channel": "AMLD Intelligence Summit"
+    },
+    {
+      "id": "UiX8K-xBUpE",
+      "series": "scratch",
+      "part": 10,
+      "topics": [
+        "deep-learning",
+        "inference"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Mistral and Mixtral",
+      "title": "Mistral / Mixtral Explained: Sliding Window Attention, Sparse Mixture of Experts, Rolling Buffer",
+      "why": "Umar Jamil on the pieces that are not in LLaMA: a sliding window, a rolling KV buffer, and a sparse mixture of experts.",
+      "durationSec": 5181,
+      "published": "2023-12-26",
+      "channel": "Umar Jamil"
+    },
+    {
+      "id": "0VLAoVGf_74",
+      "series": null,
+      "part": null,
+      "topics": [
+        "deep-learning",
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "DeepSeek\u2019s latent attention",
+      "title": "How DeepSeek Rewrote the Transformer [MLA]",
+      "why": "Multi-head latent attention, derived. The change DeepSeek made so the KV cache stops growing with the number of heads.",
+      "durationSec": 1089,
+      "published": "2025-03-05",
+      "channel": "Welch Labs"
+    },
+    {
+      "id": "CwePo4847ho",
+      "series": null,
+      "part": null,
+      "topics": [
+        "deep-learning",
+        "training"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "How Kimi K2.5 was scaled",
+      "title": "How We Scaled Kimi K2.5 | Zhilin Yang's full GTC 2026 Keynote",
+      "why": "Zhilin Yang, Moonshot, on the architecture and the systems behind Kimi K2.5. The lab, not a recap.",
+      "durationSec": 2372,
+      "published": "2026-03-20",
+      "channel": "Kimi AI"
+    },
+    {
+      "id": "BP5CM0YxbP8",
+      "series": null,
+      "part": null,
+      "topics": [
+        "vlm",
+        "deep-learning"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Transformers in vision",
+      "title": "Stanford CS25: V1 I Transformers in Vision: Tackling problems in Computer Vision",
+      "why": "Lucas Beyer, a Vision Transformer coauthor, on what changes when the tokens are image patches.",
+      "durationSec": 4116,
+      "published": "2022-07-12",
+      "channel": "Stanford Online"
+    },
+    {
+      "id": "5bMkjdeMapM",
+      "series": null,
+      "part": null,
+      "topics": [
+        "vlm"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Flamingo, from an author",
+      "title": "Antoine Miech - Flamingo: a Visual Language Model for Few-Shot Learning",
+      "why": "Antoine Miech on Flamingo: a frozen language model, a vision encoder, and the layers that let the two talk.",
+      "durationSec": 3885,
+      "published": "2022-10-06",
+      "channel": "Columbia Vision Seminar"
+    },
+    {
+      "id": "mkI7EPD1vp8",
+      "series": null,
+      "part": null,
+      "topics": [
+        "vlm"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "LLaVA and multimodal GPT-4",
+      "title": "[CVPR2023 Tutorial Talk] Large Multimodal Models: Towards Building and Surpassing Multimodal GPT-4",
+      "why": "Chunyuan Li on instruction-tuned vision-language models, from the group that built LLaVA.",
+      "durationSec": 2561,
+      "published": "2023-06-20",
+      "channel": "VLP Tutorial 2024"
+    },
+    {
+      "id": "cwjs1WAG9CM",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 5,
+      "label": "Context, chains, and LangSmith",
+      "title": "Building Context-Aware Reasoning Applications with LangChain and LangSmith: Harrison Chase",
+      "why": "Harrison Chase on the basic shape of an LLM app: pass the right context, then trace it in LangSmith.",
+      "durationSec": 1133,
+      "published": "2023-11-01",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "9M8x485j_lU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "LangChain Expression Language",
+      "title": "LangChain Expression Language",
+      "why": "Harrison Chase and Nuno Campos walking through LCEL, the syntax chains in LangChain are written in.",
+      "durationSec": 3240,
+      "published": "2023-08-02",
+      "channel": "LangChain"
+    },
+    {
+      "id": "aHCDrAbH_go",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "agents"
+      ],
+      "kind": "lecture",
+      "rank": 5,
+      "label": "Agent patterns in LangGraph",
+      "title": "Building Effective Agents with LangGraph",
+      "why": "The LangChain team implementing Anthropic\u2019s agent and workflow patterns in LangGraph, one pattern at a time.",
+      "durationSec": 1909,
+      "published": "2025-01-27",
+      "channel": "LangChain"
+    },
+    {
+      "id": "wd7TZ4w1mSw",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RAG from scratch: overview",
+      "title": "RAG From Scratch: Part 1 (Overview)",
+      "why": "LangChain\u2019s own RAG tutorial, part 1. The shape of index, retrieve, generate.",
+      "durationSec": 313,
+      "published": "2024-02-06",
+      "channel": "LangChain"
+    },
+    {
+      "id": "bjb_EMsTDKI",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RAG from scratch: indexing",
+      "title": "RAG From Scratch: Part 2 (Indexing)",
+      "why": "How documents become chunks and embeddings in the LangChain tutorial.",
+      "durationSec": 292,
+      "published": "2024-02-06",
+      "channel": "LangChain"
+    },
+    {
+      "id": "LxNVgdIz9sU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RAG from scratch: retrieval",
+      "title": "RAG From Scratch: Part 3 (Retrieval)",
+      "why": "The retrieval step, from the same LangChain series.",
+      "durationSec": 314,
+      "published": "2024-02-06",
+      "channel": "LangChain"
+    },
+    {
+      "id": "Vw52xyyFsB8",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "lecture",
+      "rank": 4,
+      "label": "RAG from scratch: generation",
+      "title": "RAG From Scratch: Part 4 (Generation)",
+      "why": "The generation step: the retrieved chunks go into the prompt and the model answers.",
+      "durationSec": 385,
+      "published": "2024-02-06",
+      "channel": "LangChain"
+    },
+    {
+      "id": "RQi7x-navxU",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied",
+        "agents"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Documents are not prompts",
+      "title": "Building the Document Context Layer for AI Agents \u2014 Jerry Liu, LlamaIndex",
+      "why": "Jerry Liu, LlamaIndex, on what a PDF actually contains and why an agent cannot treat it as plain text.",
+      "durationSec": 1263,
+      "published": "2026-09-23",
+      "channel": "AI Engineer"
+    },
+    {
+      "id": "MMFykgidz34",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "demo",
+      "rank": 4,
+      "label": "A vector database, from the founder",
+      "title": "Chroma demo\u2014Anton Troynikov | Stripe AI Day",
+      "why": "Anton Troynikov, who built Chroma, on what an embedding store is for once retrieval leaves a notebook.",
+      "durationSec": 1056,
+      "published": "2023-07-21",
+      "channel": "Stripe"
+    },
+    {
+      "id": "kE4BkATIl9c",
+      "series": null,
+      "part": null,
+      "topics": [
+        "applied"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Structured outputs",
+      "title": "OpenAI DevDay 2024 | Structured outputs for reliable applications",
+      "why": "OpenAI\u2019s own session on making a model return JSON that matches a schema, so the program around it can trust the shape.",
+      "durationSec": 2439,
+      "published": "2024-12-17",
+      "channel": "OpenAI"
+    },
+    {
+      "id": "kdo7KMAQcrE",
+      "series": null,
+      "part": null,
+      "topics": [
+        "inference"
+      ],
+      "kind": "talk",
+      "rank": 4,
+      "label": "Speculative decoding",
+      "title": "Speculation is all you need: Intro to Speculative Decoding for High Performance Inference",
+      "why": "Decoding is memory-bound. A draft model proposes tokens and the target model checks them, which cuts latency without changing the output.",
+      "durationSec": 2419,
+      "published": "2026-03-12",
+      "channel": "Modal"
+    }
+  ]
+}
